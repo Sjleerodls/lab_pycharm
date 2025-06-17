@@ -7,7 +7,7 @@ def plus(x, y):
     """
     return x + y
 
-# print('plus.py __name__ =', __name__)
+print('plus.py __name__ =', __name__)   # __main__
 
 # myutil.plus
 if __name__ == '__main__':      # 각 모듈은 기본적으로 __name__에 __main__을 저장하고 있음.
@@ -23,7 +23,7 @@ if __name__ == '__main__':      # 각 모듈은 기본적으로 __name__에 __ma
 """
 
 """
-print(plus.__dir__())     # 객체가 어떤 속성 이름들을 갖고 있는지 문자열 리스트로 반환.
+print(plus.__dir__())     # 객체가 어떤 속성 이름들을 갖고 있는지 문자열로 이루어진 리스트로 반환.
 print(dir(plus))          # ""
 print(getattr(plus, '__name__'))    # 그 중 하나의 실제 속성값을 가져옴
 """

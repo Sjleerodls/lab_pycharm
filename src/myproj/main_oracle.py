@@ -23,6 +23,7 @@ if __name__ == '__main__':
 
     result = cursor.execute(sql)    # SQL 문장 실행.
     print('result =', result)
+
     # Cursor 객체는 iterable 타입 -> for-in 반복문에서 사용할 수 있음.
     # row : select 결과에서 1개 행에 저장된 값들로 이루어진 tuple.
     for row in cursor:

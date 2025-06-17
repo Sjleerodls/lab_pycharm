@@ -17,8 +17,8 @@ if __name__ == '__main__':                  # __name__이 '__main__'이기 때�
     result2 = myutil.minus.minus(1, 2)
     print('result2 =', result2)
 
-    result3 = myutil2.multiply(2, 3)
+    result3 = myutil2.multiply(2, 3)    # 패키지 내 함수 바로 사용
     print('result3 =', result3)
 
-    result4 = myutil2.divide(2, 3)
+    result4 = myutil2.divide(2, 3)      # ""
     print('result4 =', result4)
