@@ -101,7 +101,7 @@ def dept_ex_delete_sj():
 
 
 
-if __name__ == '__main__':
+def main():
     run = True
     while run:
         menu = show_main_menu()
@@ -124,6 +124,13 @@ if __name__ == '__main__':
             dept_ex_update_sj()
         elif menu == '8':
             dept_ex_delete_sj()
+        else:
+            print('메뉴 번호는 0 ~ 8 사이의 정수만 입력 가능합니다.')
+
+
+
+if __name__ == '__main__':
+    main()
 
 
 
