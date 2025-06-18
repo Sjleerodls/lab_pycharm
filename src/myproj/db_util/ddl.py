@@ -1,4 +1,4 @@
-from adodbapi import DatabaseError
+from oracledb import DatabaseError
 
 from src.myproj.db_util.connect import get_connection
 
