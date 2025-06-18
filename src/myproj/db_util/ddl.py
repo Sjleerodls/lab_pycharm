@@ -22,7 +22,7 @@ def create_table():
             except DatabaseError as e:
                 print(e)
             # cursor.close()는 자동 호출
-        # conn.close()난 자동 호출
+        # conn.close()는 자동 호출
 
 
 def drop_table():

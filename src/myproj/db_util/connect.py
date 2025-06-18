@@ -1,4 +1,4 @@
-import oracledb
+import oracledb     # 오라클 데이터베이스에 연결 가능.
 
 user = 'scott'
 password = 'tiger'

@@ -55,7 +55,7 @@ def create_table_sj(menu):
     if int(menu) != int(menu):
         print('정수만 입력 가능합니다 >>')
     elif int(menu) == int(menu):
-        db.create_table()
+        db.create_table()           # 수정 해야함.
 
 
 def select_dept_by_deptno_sj():
@@ -90,7 +90,7 @@ def dept_ex_update_sj():
     print(select_want_number())
     e_num = input('기존에 존재하는 부서 번호를 입력하세요 :')
     print('업데이트가 완료되었습니다. 결과를 다시 확인해주세요. ')
-    return db.dept_ex_update(c_num, name, loc, e_num)  # 대문자 자동 반영 !!!
+    return db.dept_ex_update(c_num, name, loc, e_num)  # 대문자 자동 반영
 
 
 def dept_ex_delete_sj():

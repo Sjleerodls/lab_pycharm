@@ -18,7 +18,8 @@ def select_dept():
 
 
 # 부서번호로 부서 정보 검색 -> 파라미터를 갖는 sql 문장
-sql_select_by_deptno = 'select * from dept_ex where deptno = :dept_no'
+sql_select_by_deptno = 'select * from dept_ex where deptno = :dept_no'  # 여기서 :dept_no와 같은 구문인
+                                                                        # 오라클 DB에서만 사용 가능한 문법임.
 
 # sql_select_by_deptno 문장을 실행하고 결과를 출력하는 함수
 def select_dept_by_deptno(no):
