@@ -58,9 +58,9 @@ if __name__ == '__main__':
     # select_dept()
 
     # dept_ex 테이블에서 부서 번호로 검색하기
-    # dept_no = int(input('부서 번호를 입력하세요 >>> '))
-    # select_dept_by_deptno(dept_no)
+    dept_no = int(input('부서 번호를 입력하세요 >>> '))
+    select_dept_by_deptno(dept_no)
 
     # dept_ex 테이블에서 부서 이름의 일부 검색하기
-    dname = input('부서 이름의 일부를 영어로 임력하세요 >>> ')
-    select_dept_by_dname(dname)
+    # dname = input('부서 이름의 일부를 영어로 임력하세요 >>> ')
+    # select_dept_by_dname(dname)
